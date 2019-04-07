@@ -37,7 +37,12 @@ header {
 	text-decoration: none;
 }
 
-.active {
+.menu li a.active-hover {
+	border-top: 2px solid #130e27;
+	border-bottom: 2px solid #130e27;
+}
+
+.menu li a.active {
 	background-color: #130e27;
 	padding: 7px 10px 7px 10px;
 	border-radius: 5px;
@@ -415,7 +420,11 @@ footer {
 }
 
 .for-freelance {
-	padding: 10px 0 20px 0;
+	padding: 10px 0 10px 0;
+}
+
+.vk {
+	padding-bottom: 20px;
 }
 
 /* Экстрамалые девайсы («портретные телефоны», < 576px) XS,SM*/
